@@ -91,6 +91,21 @@ nav{
 }
 
 /* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(26,26,26);
+    color: white;
+}
+.span-padding{
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+
 
 /* IMMAGINI */
 .img1{
