@@ -1,5 +1,150 @@
+/* color palette
+arancione rgb(255,105,0)
+nero rgb(26,26,26) */
+/* verde rgb(0,128,0) */
+
+/* UTILS */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+.white-text{
+    color: white
+}    
+.red-text{
+    color: red;
+}
+.barred-text{
+    text-decoration: line-through;
+}
+    
+/* HEADER */
+nav{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(255,105,0);
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    height: 30px;
+}
+
+/* MAIN */
+.container-foto{
+    display: flex;
+    margin: 20px;
+}
+
+.card-completa{
+    width: 33%;
+    margin: 10px;
+}
+.foto{
+    height: 500px;
+    position: relative;
+}
+.heart{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.sconto{
+    padding: 5px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.sostenibilità{
+    padding: 5px;
+    position: absolute;
+    background-color: green;
+    bottom: 30px;
+    left: 50px;
+}
+.sostenibilità-left-0{
+    padding: 5px;
+    position: absolute;
+    background-color: green;
+    bottom: 30px;
+    left: 0px;
+}
+
+/* FOOTER */
+
+/* IMMAGINI */
+.img1{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    cursor: pointer;
+}
+.img2{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+.img3{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+.img4{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+.img5{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+.img6{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
+/* IMMAGINI HOVER */
+.img1:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.img2:hover{
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+}
+.img3:hover{
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+}
+.img4:hover{
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+}
+.img5:hover{
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+}
+.img6:hover{
+    background-image: url(../img/6b.webp);
+    background-size: cover;
+}
+.heart:hover{
+    color: red;
+
 }
